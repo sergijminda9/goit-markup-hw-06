@@ -200,7 +200,7 @@ img {
   background-position: center;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url('../images/people-office.jpg');
+    url('../images/mobelka/hero-mobil-1x.jpg');
   background-repeat: no-repeat;
 
   @media screen and (min-resolution: 2x) {
@@ -437,6 +437,10 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   background: #fff;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:hover,
@@ -552,7 +556,6 @@ img {
   color: #f4f4fd;
   max-width: 264px;
   width: 100%;
-  text-align: center;
 }
 
 .footer-social-subscribe-conteiner {
@@ -865,6 +868,7 @@ img {
   color: #8e8f99;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 24px;
   margin-top: 16px;
 }
@@ -875,6 +879,7 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   text-decoration: underline;
+  margin-left: 24px;
 }
 
 .modal-check-label-span {
@@ -1058,6 +1063,7 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
+  color: #404bbf;
 }
 
 .mobile-contacts-link:hover,
@@ -1174,6 +1180,10 @@ img {
   }
 
   .portfolio-item {
+    box-shadow:
+      0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16),
+      0 1px 6px 0 rgba(46, 47, 66, 0.08);
     width: calc((100% - 24px) / 2);
   }
 
@@ -1239,6 +1249,10 @@ img {
   .modal {
     width: 408px;
     padding: 72px 24px 24px 24px;
+  }
+
+  .modal-check-label-link {
+    margin-left: 3px;
   }
 }
 
