@@ -203,7 +203,7 @@ img {
     url('../images/mobelka/hero-mobil-1x.jpg');
   background-repeat: no-repeat;
 
-  @media screen and (min-resolution: 2x) {
+  @media screen and (min-resolution: 2dppx) {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/mobelka/hero-mobile-2x.jpg');
@@ -556,14 +556,6 @@ img {
   color: #f4f4fd;
   max-width: 264px;
   width: 100%;
-}
-
-.footer-social-subscribe-conteiner {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 100%;
-  align-items: center;
 }
 
 .footer-social-conteiner {
@@ -1060,10 +1052,10 @@ img {
 }
 
 .mobile-contacts-link.phone {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #404bbf;
+  color: #4d5ae5;
 }
 
 .mobile-contacts-link:hover,
@@ -1191,10 +1183,11 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-left: 108px;
     padding-right: 108px;
     row-gap: 72px;
+    column-gap: 24px;
   }
 
   .footer-logo-text {
@@ -1209,10 +1202,6 @@ img {
 
   .footer-text {
     text-align: left;
-  }
-
-  .footer-social-subscribe-conteiner {
-    display: contents;
   }
 
   .footer-social-conteiner {
@@ -1337,6 +1326,15 @@ img {
 
   .portfolio-item {
     width: calc((100% - 48px) / 3);
+    box-shadow: none;
+  }
+
+  .portfolio-item:hover,
+  .portfolio-item:focus {
+    box-shadow:
+      0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16),
+      0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
   .footer {
@@ -1348,32 +1346,21 @@ img {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: baseline;
-    gap: 80px;
+    gap: 0;
     padding-left: 0;
     padding-right: 0;
   }
 
   .footer-logo-text {
-    margin-right: 40px;
+    margin-right: 120px;
   }
 
   .footer-text {
     width: 264px;
   }
 
-  .footer-social-subscribe-conteiner {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 80px;
-    width: auto;
-    margin-left: auto;
-    align-items: baseline;
-  }
-
   .footer-social-conteiner {
-    margin-left: 0;
-    margin-top: 0;
-    align-self: baseline;
+    margin-right: 80px;
   }
 
   .footer-subscribe {
