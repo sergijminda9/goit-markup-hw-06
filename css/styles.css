@@ -928,7 +928,7 @@ img {
   text-decoration-skip-ink: none;
   color: #4d5ae5;
   text-decoration: underline;
-  margin-left: 4px;
+  margin-left: 24px;
 }
 
 .modal-check-label-span {
@@ -966,6 +966,8 @@ img {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  display: block;
+  margin: 0 auto;
 }
 
 .modal-send-text {
@@ -1164,7 +1166,7 @@ img {
   }
 
   .logo-in-header {
-    margin-right: 120px;
+    margin-right: 76px;
   }
 
   .navigation-menu-lists {
@@ -1263,12 +1265,6 @@ img {
 
   .footer-text {
     text-align: left;
-  }
-
-  .footer-social-subscribe-conteiner {
-    flex-direction: row;
-    gap: 24px;
-    width: auto;
   }
 
   .footer-social-conteiner {
@@ -1426,13 +1422,8 @@ img {
     width: 264px;
   }
 
-  .footer-social-subscribe-conteiner {
-    flex-direction: row;
-    gap: 80px;
-  }
-
   .footer-social-conteiner {
-    margin-right: 0;
+    margin-right: 80px;
   }
 
   .footer-subscribe {
